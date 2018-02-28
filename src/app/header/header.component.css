@@ -1,0 +1,36 @@
+body{ font-family: 'Oxygen', sans-serif;/*overflow:hidden;background: url(../img/bg.png); background-size: 100% 100%;*/}
+p{ font-family: 'Oxygen', sans-serif;font-size:13px;}
+a{font-size:13px;transition: all 0.5s ease-out;}
+a:hover, a:focus, a:active {text-decoration: none;transition: all 0.5s ease-out;}
+a:focus {outline: 0px;outline-offset: 0;}
+ul{margin:0px;}
+:focus { outline: -webkit-focus-ring-color auto 0px;}
+header{    position: fixed; top: 0px; height: 63px; width: 100%; z-index: 999;}
+input:focus, input:active {border-color: transparent !important; outline: 0; -webkit-box-shadow: none !important;box-shadow: none !important;}
+textarea {  resize: none;overflow: hidden; -webkit-transition: height 2s ease;
+-moz-transition: height 2s ease;
+-ms-transition: height 2s ease;
+-o-transition: height 2s ease;
+transition: height 2s ease;}
+textarea.form-control { height: auto;overflow: hidden;}
+.notification_sec { text-align: right;}
+.notification_sec li { /* display: inline-block; */ text-align: right;list-style: none;position: relative;
+    text-align: left; cursor: pointer;}
+.navbar-inverse {   background-color: #fff;  border-color: #edecf2;}
+.navbar { height: auto; margin: 0px;}
+.navbar-inverse .navbar-nav>li>a { color: #000000; font-size: 14px; transition: all 0s;cursor: pointer;
+}
+.profile_icon { vertical-align: middle;  display: inline-block !important;}
+.caret {  border-top: 4px dashed #3a97f6;}
+.navbar-inverse .navbar-nav>li>a:after { display: block; content: ''; position: absolute; bottom: 0;top: 1rem;
+    left: 0;  width: 0%; transition: width 0.3s ease;}
+.profile_icon img { vertical-align: middle; display: inline-block !important; }
+
+@media (min-width: 768px){
+    .navbar-header{width:20%;padding-left: 15px;padding-right: 15px;}
+    .navbar-collapse{width: 80%;padding-right: 30px;}
+    body {overflow: hidden; }
+    .addbox{    position: absolute;right: 0px;     width: 95px;padding: 0px;margin-right: 15px;}
+    .addbranch_box{    width: 97px; padding: 0px;margin-right: 15px;}
+            
+    }

@@ -63,7 +63,7 @@ textarea.form-control { height: auto;overflow: hidden;}
 .seeall p{margin:0px;cursor: pointer;padding:10px 0px 0px 0px;}
 .graybg{background: #f9faff;}
 .greybg{background: #f9faff;}
-.no-padding{padding:0px}
+.no-padding{padding:0px !important}
 .form-control:focus{border-color: #cacaca; outline: 0; -webkit-box-shadow: inset 0 1px 1px rgba(216, 216, 216, 0.4196078431372549), 0 0 8px rgba(216, 216, 216, 0.4196078431372549); box-shadow: inset 0 1px 1px rgba(216, 216, 216, 0.4196078431372549), 0 0 8px rgba(216, 216, 216, 0.4196078431372549); box-shadow: 0px 0px 10px rgba(216, 216, 216, 0.4196078431372549);}
 .go-premium{    position: absolute; bottom: 25px; width: 100%; left: 0px;}
 .go-premium a{position:relative}
@@ -139,7 +139,7 @@ button[disabled], html input[disabled] {
 .navbar{height: auto; margin: 0px;}
 .navbar-brand{height: auto;    padding: 10px 15px;}
 .navbar-inverse { background-color: #fff;border-color: #edecf2;}
-.login_profile{display: inline-block;}
+.login_profile{display: inline-block !important;}
 .navbar-form{    margin-bottom: 0px;    margin-top: 12px;    padding: 0px;}
 .navbar-form button{ border: none; box-shadow: none;}
 .navbar-form .input-group>.form-control{ border: none; box-shadow: none;}

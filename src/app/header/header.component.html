@@ -1,13 +1,74 @@
-<nav class="navbar navbar-default">
-  <div class="container-fluid">
-    <div class="navbar-header">
-      <a class="navbar-brand" href="#">WebSiteName</a>
-    </div>
-    <ul class="nav navbar-nav">
-      <li class="active"><a class="" routerLink="/login" >Login</a></li>
-      <li><a class="" routerLink="/tasks" >tasks</a></li>
-      <li><a href="#">Page 2</a></li>
-      <li><a href="#">Page 3</a></li>
-    </ul>
-  </div>
-</nav>
+<header>
+  <nav class="navbar navbar-inverse">
+    <div class="container-fluid">
+      <div class="navbar-header col-sm-3 no-padding">
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>                        
+        </button>
+       
+        <a class="navbar-brand" ><img src="assets/tblogo.png" alt="" title="" class="img-responsive" /></a>
+        <a class="navbar-brand organization_name" ><h1>UMM </h1></a>
+      </div>
+      <div class="collapse navbar-collapse col-sm-9 no-padding" id="myNavbar" >
+          <form class="navbar-form navbar-left">
+              <div class="input-group">
+                <div class="input-group-btn">
+                  <button class="btn btn-default" type="submit">
+                    <i class="fa fa-search" aria-hidden="true"></i>
+                  </button>
+                </div>
+                <input type="text" class="form-control" placeholder="Type to Search">
+              
+              </div>
+            </form>
+           
+            <ul class="nav navbar-nav menu_link navbar-right notification_sec" >
+                <li ui-sref-active="active" ><a ui-sref="app.tasks">Tasks</a></li>
+                <li><a>CRM</a></li>
+                <li><a>HRM</a></li>
+                <li><a>Accounts</a></li>
+                <li ><a>Assets</a></li>
+                <li><a>Logistics</a></li>
+                <li><a class="chat_icon"><i class="far fa-comments"></i></a></li>
+               
+                <li class="dropdown notification_dropdown" >
+                    <a class="chat_icon">
+                        <div class="notification_box">
+                            <p>12</p>
+                            <span></span>
+                        </div>
+                      </a>
+                     <ul class="dropdown-menu" >
+                     <div class="col-xs-12 col-sm-12 notifications_box no-padding">
+                       
+                        <li class="new">
+                            <ul class="list-inline">
+                                <li>img</li>
+                                <li><img src="assets/profileicon.png" class="profileicon" title="" /></li>
+                                <li><img src="assets/profileicon.png" class="profileicon"  title="" /></li>
+                                <li><p><span class="profile_name">Divagar</span> added the task to workgroup Website Development</p></li>
+                            </ul>
+                        </li>
+      
+                        </div>
+                        <div class="col-xs-12 seeall text-center col-sm-12 no-padding">
+                            <p>See All</p>
+                        </div>
+                        
+                      </ul>
+      
+                      
+                  </li>
+                  <li><a class="setting_icon setting_menu_icon"><i class="fa fa-cog" aria-hidden="true"></i></a></li>
+                  <li class="dropdown">
+                    <a href="javascript:void(0)" data-toggle="dropdown" class="dropdown-toggle "><img src="assets/login_profile.png" alt="" title="" class="img-responsive login_profile" /><b class="caret"></b></a>
+                  
+                    </li>
+      
+                </ul>
+          </div>
+      </div>
+  </nav>
+</header>

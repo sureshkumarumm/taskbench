@@ -131,7 +131,7 @@ body {overflow: hidden; }
 }
 @media (min-width: 1440px){
     .login_form{padding:30px 53px 30px 52px;}
-	.tab_sec{position: fixed; width: 20%; overflow-y: auto;}
+	.tab_sec{  position: fixed !important;width: 20% !important; overflow-y: auto;}
 	.content_details_sec{width:80%;margin-left: 20%;padding: 0px; }
 	.tab_tree_sec{position: fixed; width: 38%; overflow-y: auto;    height: 87vh;}
 	.product_content_details_sec{width:62%;margin-left: 38%;padding: 0px;height: 84vh;padding: 0px;overflow-y: auto;}
